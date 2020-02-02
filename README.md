@@ -2,6 +2,8 @@
 
 Official [SPEEDTEST CLI](https://www.speedtest.net/apps/cli), inside simple ubuntu container
 
+![SPEEDTEST CLI landing page screenshot](speedtest-cli.png)
+
 ## Usage
 
 Human readable output
