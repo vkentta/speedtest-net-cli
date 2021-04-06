@@ -1,0 +1,7 @@
+name: 'Print help'
+description: 'See that help gets printed'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - '--help'
