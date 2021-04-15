@@ -1,11 +1,11 @@
 name: test-action
 on: [push]
 jobs:
-  check-bats-version:
+  build-and-test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Build the Docker image
         run: docker build . --file Dockerfile --tag testimage
       - name: Test container output
-        run: docker run --rm testimage --help
+        run: docker run --rm testimage --accept-license --accept-gdpr
