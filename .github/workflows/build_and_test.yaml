@@ -1,4 +1,4 @@
-name: test-action
+name: Docker Image test
 on: [push]
 jobs:
   build-and-test:
